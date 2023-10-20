@@ -1,0 +1,223 @@
+html{
+    scroll-behavior: smooth;
+}
+* {
+    box-sizing: border-box;
+}
+body{
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+}
+.home{
+    background:url('events-heavenly-header.jpg');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 100% 100%;
+    height: 88vh;
+}
+.overlay{
+    background-color:rgba(214, 46, 51 , 0.6);
+    height: 88vh;
+}
+.paragraph{
+    text-align: center;
+    padding-top:14%;
+}
+.paragraph h1{
+    font-size: 60px;
+    font-weight: 500;
+}
+.overlay span{
+   font-size: 29px;
+   font-weight: 400;
+   margin-left: 20px;
+  
+}
+#sideBar{
+    display: flex;
+    background-color:transparent;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    z-index: 99999999;
+    width: 390px;
+}
+.sideBar-inner{
+    position: relative;
+    background-color:#111111;
+    width: 250px;
+
+}
+.sideBar-inner a{
+    text-decoration: none;
+    color: white;
+    padding: 20px 8px 20px 32px;
+    font-size: 25px;
+    transition: 0.3s;
+}
+.mylinks{
+ margin-top:  75px;
+}
+.sideBar-inner .nav:hover a{
+    color: rgba(214, 46, 51 , 0.4);
+}
+#sideBar span{
+    align-self: flex-start;
+    margin-top: 86%;
+    margin-left: 24px;
+    font-size: 30px;
+    cursor: pointer;
+}
+.closebtn i{
+    position: absolute;
+    font-size: 25px;
+    color: white;
+    right: 33px;
+    top: 29px;
+
+    
+}
+.closebtn i:hover{
+    color: rgba(214, 46, 51 , 0.4);
+}
+#duration{
+    margin:100px auto;
+}
+#duration h3 {
+    padding: 10px;
+    margin: 0px;
+    background-color: rgba(214, 46, 51 , 0.6);
+    cursor: pointer;
+    color: white;
+}
+.inner{
+    padding: 10px;
+    background-color: #ccc;
+    display: none;
+}
+.sec3{
+    background-image: url(invitation-2508607__340.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 100% 100%;
+    position: relative;
+    height: 330px;
+}
+.overlay2{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(214, 46, 51 , 0.6);
+    color: white;
+}
+.container {
+    padding: 100px 0px;
+}
+.tim {
+    padding: 50px 20px;
+    border: 1px solid #FFF;
+    font-weight: 500;
+    font-size: 30px;
+}
+.container {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+.head h2 {
+    text-transform: uppercase;
+    font-size: 35px;
+    color: #444;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+.head p {
+    color: #777;
+    font-weight: 300;
+    font-size: 16px;
+}
+.con-info h3 {
+    color: #444;
+    font-size: 18px;
+    font-weight: bold;
+}
+strong {
+    font-weight: bolder;
+}
+.con-info p {
+    font-size: 16px;
+    line-height: 26px;
+    color: #777;
+}
+.icons {
+    margin-top: 50px;
+}
+.icons p {
+    margin-bottom: 35px;
+}
+.red {
+    color: #D62E33 !important;
+}
+.myicon{
+    color: #777 !important;
+}
+.con-info .social-list {
+    margin-top: 60px;
+    color: #777;
+}
+.social-list i {
+    margin-right: 20px;
+    color: #777;
+}
+.con-info .social-list i {
+    margin-right: 10px;
+    border: 1px solid #999;
+    width: 40px;
+    height: 40px;
+    line-height: 42px;
+    cursor: pointer;
+    text-align: center;
+}
+.fab, .far {
+    font-weight: 400;
+}
+.con-info .social-list i:hover{
+    color: white;
+    background-color: #D62E33;
+       border-color: transparent;
+}
+.form-control {
+    border-radius: 0px;
+    -webkit-border-radius: 0px;
+    -moz-border-radius: 0px;
+    -ms-border-radius: 0px;
+    -o-border-radius: 0px;
+}
+form input, #contact-us form textarea {
+    margin-bottom: 20px;
+}
+form textarea {
+    height: 200px;
+    resize: vertical;
+    border-radius: none!important;
+}
+textarea {
+    margin-bottom: 20px;
+}
+#chars {
+    font-size: 20px;
+    color: #D62E33;
+}
+.btn {
+    background-color: #D62E33;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 0;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+.btn:hover{
+    background-color: #D62E33;
+    color: #fff;
+}
